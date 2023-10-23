@@ -1,8 +1,8 @@
-CREATE DATABASE  IF NOT EXISTS `ukznce` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
-USE `ukznce`;
+CREATE DATABASE  IF NOT EXISTS `ukznse` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
+USE `ukznse`;
 -- MySQL dump 10.13  Distrib 8.0.34, for Win64 (x86_64)
 --
--- Host: 127.0.0.1    Database: ukznce
+-- Host: 127.0.0.1    Database: ukznse
 -- ------------------------------------------------------
 -- Server version	8.1.0
 
@@ -92,16 +92,16 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (1,'admin','admin@1','John','Smith','admin'),(2,'220011995','bongumusai','Bongumusa','Mthembu','student'),(3,'221009410','amile','Amile','Buthelezi','student'),(4,'217063655','luke','Luke','Morgan','admin');
+INSERT INTO `users` VALUES (1,'admin','admin@1','Mike','Adam','admin'),(2,'221008769','kiara','Kiara','Chetty','student'),(3,'221009410','husnaa','Husnaa','Osman','student'),(4,'221004721','ashruthi','Ashruthi','Barath','admin');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
--- Dumping events for database 'ukznce'
+-- Dumping events for database 'ukznse'
 --
 
 --
--- Dumping routines for database 'ukznce'
+-- Dumping routines for database 'ukznse'
 --
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
